@@ -1,0 +1,16 @@
+{
+  "name": "visapath-travel-consult",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "build": "tailwindcss -i ./src/input.css -o ./build/style/output.css --watch"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^4.1.17"
+  }
+}
