@@ -51,3 +51,114 @@ VS Code
 Tailwind CDN or Tailwind CLI (depending on build method)
 
 Figma/Canva (optional design tools)
+
+## 📄 Website Pages (6 Pages)
+Page	Features
+Home	Hero section, service overview, call-to-action, interactive elements
+About	Company story, mission, values, client trust indicators
+Services	Interactive service cards, visa, flights, vacation packages
+Contact	Contact form with validation, social links, location
+## 🎨 UI/UX Design
+Design Goals
+
+Professional and premium look
+
+Mobile-first, fully responsive
+
+Smooth animations and transitions
+
+Clear content hierarchy and spacing
+
+Color Palette
+Type	Hex Code
+Primary	#0A76D1
+Secondary	#1E293B
+Background	#FFFFFF
+Accent	#FACC15
+Text	#0F172A
+Typography
+
+Tailwind default (Inter / Sans-Serif):
+
+Usage	Weight	Notes
+Headings	600–700	Strong hierarchy
+Body Text	400–500	Readable and clear
+Buttons/CTA	500–600	Eye-catching
+## 🧩 Dynamic Components
+Navbar
+
+Mobile-friendly hamburger menu with JavaScript toggle
+
+Responsive desktop layout
+
+Hero & Services
+
+Animated hero text or CTA buttons
+
+Service cards with hover effects and interactive details
+
+Testimonials
+
+Displays short client success stories
+
+Contact Form
+
+Validates inputs dynamically
+
+Clear error messages
+
+Smooth submission feedback
+
+Footer
+
+Interactive links and social media icons
+
+Newsletter form with dynamic behavior
+
+## 📁 Project Structure
+visapath-travel-consult/
+├── build/
+│   ├── about.html
+│   ├── blog.html
+│   ├── contact.html
+│   ├── index.html
+│   ├── output.css
+│   ├── services.html
+│   └── testimonials.html
+├── js/
+│   └── script.js
+├── node_modules/
+├── src/
+│   └── input.css  
+├── package.json
+├── package-lock.json
+├── README.md       // Your documentation file
+
+🚀 How to Run Locally
+1. Clone the repository
+git clone https://github.com/<your-username>/visapath-travel-consultant.git
+
+2. Open the project folder
+cd visapath-travel-consultant
+
+3. Open the homepage
+
+Double-click index.html or open it in your browser.
+
+## 📦 Deployment
+
+Can be deployed easily on GitHub Pages
+
+Or any static hosting provider (Vercel, Netlify)
+
+Fully functional dynamic interactions using JavaScript
+
+## 🤝 Contribution
+
+Fork the repo and submit improvements
+
+Add new dynamic features or enhance UI/UX
+
+## 📜 License
+
+Free to use for personal, educational, and portfolio purposes.
