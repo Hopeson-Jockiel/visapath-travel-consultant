@@ -58,6 +58,8 @@ Home	Hero section, service overview, call-to-action, interactive elements
 About	Company story, mission, values, client trust indicators
 Services	Interactive service cards, visa, flights, vacation packages
 Contact	Contact form with validation, social links, location
+
+LIve Preview: https://visapathtravelconsultant.netlify.app/
 ## 🎨 UI/UX Design
 Design Goals
 
