@@ -18,7 +18,7 @@
   <meta property="og:title" content="VisaPath Travel Consultant">
   <meta property="og:description" content="Your trusted partner for visas, flights, vacation trips, and UK university admission processing.">
   <meta property="og:image" content="./veera-batlu-_UVUzbC-kIM-unsplash"> 
-  <meta property="og:url" content="https://your-website-url.com">
+  <meta property="og:url" content="https://visapathtravelconsultant.netlify.app/">
   <meta property="og:type" content="website">
 
   <!-- Twitter Cards -->
@@ -41,164 +41,164 @@
 
 <body class="min-h-screen bg-blue-50 text-blue-900 dark:bg-gradient-to-br dark:from-blue-950 dark:via-blue-900 dark:to-blue-800 dark:text-gray-200">
 
-<!-- HEADER -->
-<header class="sticky top-0 z-50 shadow-lg 
- bg-white/70 backdrop-blur-md 
- dark:bg-blue-900/90 dark:backdrop-blur-md">
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 shadow-lg 
+    bg-white/70 backdrop-blur-md 
+    dark:bg-blue-900/90 dark:backdrop-blur-md">
 
-  <div class="max-w-6xl mx-auto h-[14vh] flex items-center justify-between px-4">
+    <div class="max-w-6xl mx-auto h-[14vh] flex items-center justify-between px-4">
 
-    <!-- Logo -->
-    <img src="./Image/ChatGPT Image Nov 25, 2025, 10_34_25 PM.png" 
-    alt="Logo" 
-     class="w-[55px] h-[55px] sm:w-[80px] sm:h-[80px] rounded-full object-cover">
+      <!-- Logo -->
+      <img src="./Image/ChatGPT Image Nov 25, 2025, 10_34_25 PM.png" 
+      alt="Logo" 
+       class="w-[55px] h-[55px] sm:w-[80px] sm:h-[80px] rounded-full object-cover">
 
-    <!-- Mobile Hamburger -->
-    <button id="hamburger" class="text-4xl sm:hidden dark:text-white">
-      &#9776;
-    </button>
+      <!-- Mobile Hamburger -->
+      <button id="hamburger" class="text-4xl sm:hidden dark:text-white">
+        &#9776;
+      </button>
 
-    <!-- Desktop Nav -->
-    <nav class="hidden sm:flex gap-8 text-lg items-center dark:text-gray-200">
+      <!-- Desktop Nav -->
+      <nav class="hidden sm:flex gap-8 text-lg items-center dark:text-gray-200">
+        <a href="index.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Home</a>
+        <a href="about.html" class="hover:text-blue-600 dark:hover:text-yellow-400">About</a>
+        <a href="services.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Services</a>
+        <a href="testimonials.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Testimonial</a>
+        <a href="blog.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Blog</a>
+      
+        <a href="contact.html"
+         class="border border-blue-600 dark:border-gray-300 
+          px-4 py-2 rounded-lg 
+          hover:bg-blue-100 dark:hover:bg-blue-800
+          transition inline-block text-center">
+          Contact Us
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- MOBILE NAV -->
+    <nav id="mobileNav" class="fixed inset-0 bg-white dark:bg-blue-950 z-[60] 
+  flex flex-col items-center justify-center space-y-6 
+  text-2xl hidden dark:text-gray-200">
+
       <a href="index.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Home</a>
       <a href="about.html" class="hover:text-blue-600 dark:hover:text-yellow-400">About</a>
       <a href="services.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Services</a>
       <a href="testimonials.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Testimonial</a>
       <a href="blog.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Blog</a>
-      
+
       <a href="contact.html"
-   class="border border-blue-600 dark:border-gray-300 
-          px-4 py-2 rounded-lg 
-          hover:bg-blue-100 dark:hover:bg-blue-800
-          transition inline-block text-center">
-  Contact Us
-</a>
+    class="border border-blue-600 dark:border-gray-300 
+      px-4 py-2 rounded-lg 
+      hover:bg-blue-100 dark:hover:bg-blue-800
+      transition inline-block text-center">
+        Contact Us
+      </a>
+
+      <!-- Close Button -->
+      <button id="closeNav" class="absolute top-6 right-6 text-4xl dark:text-gray-200">
+        ×
+      </button>
+
     </nav>
-  </div>
-</header>
 
-<main>
+    <section id="testimonials" class="max-w-7xl mx-auto px-6 md:px-12 py-20">
 
-<!-- MOBILE NAV -->
-<nav id="mobileNav" class="fixed inset-0 bg-white dark:bg-blue-950 z-[60] 
-  flex flex-col items-center justify-center space-y-6 
-  text-2xl hidden dark:text-gray-200">
-
-  <a href="index.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Home</a>
-  <a href="about.html" class="hover:text-blue-600 dark:hover:text-yellow-400">About</a>
-  <a href="services.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Services</a>
-  <a href="testimonials.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Testimonial</a>
-  <a href="blog.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Blog</a>
-
-  <a href="contact.html"
-   class="border border-blue-600 dark:border-gray-300 
-          px-4 py-2 rounded-lg 
-          hover:bg-blue-100 dark:hover:bg-blue-800
-          transition inline-block text-center">
-  Contact Us
-</a>
-
-  <!-- Close Button -->
-  <button id="closeNav" class="absolute top-6 right-6 text-4xl dark:text-gray-200">
-    ×
-  </button>
-
-</nav>
-
-<section id="testimonials" class="max-w-7xl mx-auto px-6 md:px-12 py-20">
-
-  <!-- Section Heading -->
-  <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 dark:text-gray-100 mb-12">
-    What Our Clients Say
-  </h2>
-  <p class="text-center text-blue-800 dark:text-gray-300 mb-16 max-w-3xl mx-auto">
-    Real success stories from clients who trusted us for visas, flights, vacations, and UK admissions.
-  </p>
-
-  <!-- Testimonials Grid -->
-  <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
-
-    <!-- Testimonial 1 -->
-    <div class="bg-white/70 dark:bg-blue-900/40 rounded-xl shadow-lg p-6 flex flex-col items-start space-y-4">
-      <div class="text-4xl">🌟</div>
-      <p class="text-gray-700 dark:text-gray-300">
-        "VisaPath helped me secure my UK student visa in just 4 weeks! The process was smooth and hassle-free."
+      <!-- Section Heading -->
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 dark:text-gray-100 mb-12">
+        What Our Clients Say
+      </h2>
+      <p class="text-center text-blue-800 dark:text-gray-300 mb-16 max-w-3xl mx-auto">
+        Real success stories from clients who trusted us for visas, flights, vacations, and UK admissions.
       </p>
-      <p class="font-semibold text-blue-900 dark:text-gray-100">– Ada Chukwu, UK Student</p>
-    </div>
 
-    <!-- Testimonial 2 -->
-    <div class="bg-white/70 dark:bg-blue-900/40 rounded-xl shadow-lg p-6 flex flex-col items-start space-y-4">
-      <div class="text-4xl">✈️</div>
-      <p class="text-gray-700 dark:text-gray-300">
-        "Booked my Dubai vacation through VisaPath. Everything went perfectly—hotels, flights, and tours were well organized."
-      </p>
-      <p class="font-semibold text-blue-900 dark:text-gray-100">– Michael Johnson, Vacation Traveler</p>
-    </div>
+      <!-- Testimonials Grid -->
+      <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
 
-    <!-- Testimonial 3 -->
-    <div class="bg-white/70 dark:bg-blue-900/40 rounded-xl shadow-lg p-6 flex flex-col items-start space-y-4">
-      <div class="text-4xl">🎓</div>
-      <p class="text-gray-700 dark:text-gray-300">
-        "Thanks to VisaPath, I was admitted to my first-choice university in the UK. The guidance and support were exceptional!"
-      </p>
-      <p class="font-semibold text-blue-900 dark:text-gray-100">– Fatima Bello, UK Admission</p>
-    </div>
+        <!-- Testimonial 1 -->
+        <div class="bg-white/70 dark:bg-blue-900/40 rounded-xl shadow-lg p-6 flex flex-col items-start space-y-4">
+          <div class="text-4xl">🌟</div>
+          <p class="text-gray-700 dark:text-gray-300">
+            "VisaPath helped me secure my UK student visa in just 4 weeks! The process was smooth and hassle-free."
+          </p>
+          <p class="font-semibold text-blue-900 dark:text-gray-100">– Ada Chukwu, UK Student</p>
+        </div>
 
-  </div>
+        <!-- Testimonial 2 -->
+        <div class="bg-white/70 dark:bg-blue-900/40 rounded-xl shadow-lg p-6 flex flex-col items-start space-y-4">
+          <div class="text-4xl">✈️</div>
+          <p class="text-gray-700 dark:text-gray-300">
+          "Booked my Dubai vacation through VisaPath. Everything went perfectly—hotels, flights, and tours were well organized."
+          </p>
+          <p class="font-semibold text-blue-900 dark:text-gray-100">– Michael Johnson, Vacation Traveler</p>
+        </div>
 
-</section>
+        <!-- Testimonial 3 -->
+        <div class="bg-white/70 dark:bg-blue-900/40 rounded-xl shadow-lg p-6 flex flex-col items-start space-y-4">
+          <div class="text-4xl">🎓</div>
+          <p class="text-gray-700 dark:text-gray-300">
+          "Thanks to VisaPath, I was admitted to my first-choice university in the UK. The guidance and support were exceptional!"
+          </p>
+          <p class="font-semibold text-blue-900 dark:text-gray-100">– Fatima Bello, UK Admission</p>
+        </div>
 
-</main>
-
-<footer class="bg-blue-900 dark:bg-blue-950 text-gray-200 py-16">
-  <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-10">
-
-    <!-- Brand & About -->
-    <div class="space-y-4">
-      <h3 class="text-2xl font-bold text-white">VisaPath Travel Consultant</h3>
-      <p class="text-gray-300 text-sm">
-        Trusted partner for visas, flights, vacations, and UK university admissions.
-        Helping clients achieve global opportunities with ease.
-      </p>
-      <div class="flex space-x-4 mt-2 text-xl">
-        <a href="https://www.website.com" target="_blank" class="hover:text-yellow-400 transition">
-          <i class="fas fa-globe"></i>
-        </a>
-        <a href="https://facebook.com/YourPage" target="_blank" class="hover:text-yellow-400 transition">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://twitter.com/YourProfile" target="_blank" class="hover:text-yellow-400 transition">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://instagram.com/YourProfile" target="_blank" class="hover:text-yellow-400 transition">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://linkedin.com/in/YourProfile" target="_blank" class="hover:text-yellow-400 transition">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
       </div>
-    </div>
 
-    <!-- Quick Links -->
-    <div class="space-y-3">
-      <h4 class="font-semibold text-white">Quick Links</h4>
-      <ul class="space-y-2 text-gray-300">
-        <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
-        <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
-        <li><a href="services.html" class="hover:text-yellow-400 transition">Services</a></li>
-        <li><a href="testimonials.html" class="hover:text-yellow-400 transition">Testimonials</a></li>
-        <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
-      </ul>
-    </div>
+    </section>
 
-    <!-- Contact Info -->
-    <div class="space-y-3">
-      <h4 class="font-semibold text-white">Contact</h4>
-      <p class="text-gray-300 text-sm">📍 Port Harcourt, Nigeria</p>
-      <p class="text-gray-300 text-sm">📧 info@visapathtravelconsultant.com</p>
-      <p class="text-gray-300 text-sm">📞 +234 903 468 2769</p>
-    </div>
+  </main>
+
+  <footer class="bg-blue-900 dark:bg-blue-950 text-gray-200 py-16">
+    <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-10">
+
+      <!-- Brand & About -->
+      <div class="space-y-4">
+        <h3 class="text-2xl font-bold text-white">VisaPath Travel Consultant</h3>
+        <p class="text-gray-300 text-sm">
+         Trusted partner for visas, flights, vacations, and UK university admissions.
+         Helping clients achieve global opportunities with ease.
+        </p>
+        <div class="flex space-x-4 mt-2 text-xl">
+          <a href="https://visapathtravelconsultant.netlify.app/" target="_blank" class="hover:text-yellow-400 transition">
+            <i class="fas fa-globe"></i>
+          </a>
+          <a href="https://facebook.com/YourPage" target="_blank" class="hover:text-yellow-400 transition">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/YourProfile" target="_blank" class="hover:text-yellow-400 transition">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/YourProfile" target="_blank" class="hover:text-yellow-400 transition">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com/in/YourProfile" target="_blank" class="hover:text-yellow-400 transition">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="space-y-3">
+        <h4 class="font-semibold text-white">Quick Links</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+          <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
+          <li><a href="services.html" class="hover:text-yellow-400 transition">Services</a></li>
+          <li><a href="testimonials.html" class="hover:text-yellow-400 transition">Testimonials</a></li>
+          <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="space-y-3">
+        <h4 class="font-semibold text-white">Contact</h4>
+        <p class="text-gray-300 text-sm">📍 Port Harcourt, Nigeria</p>
+        <p class="text-gray-300 text-sm">📧 info@visapathtravelconsultant.com</p>
+        <p class="text-gray-300 text-sm">📞 +234 903 468 2769</p>
+      </div>
 
     <!-- Newsletter / CTA -->
     <div class="space-y-3">

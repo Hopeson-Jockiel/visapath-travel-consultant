@@ -18,7 +18,7 @@
   <meta property="og:title" content="VisaPath Travel Consultant">
   <meta property="og:description" content="Your trusted partner for visas, flights, vacation trips, and UK university admission processing.">
   <meta property="og:image" content="./veera-batlu-_UVUzbC-kIM-unsplash"> 
-  <meta property="og:url" content="https://your-website-url.com">
+  <meta property="og:url" content="https://visapathtravelconsultant.netlify.app/">
   <meta property="og:type" content="website">
 
   <!-- Twitter Cards -->
@@ -41,138 +41,137 @@
 
 <body class="min-h-screen bg-blue-50 text-blue-900 dark:bg-gradient-to-br dark:from-blue-950 dark:via-blue-900 dark:to-blue-800 dark:text-gray-200">
 
-<!-- HEADER -->
-<header class="sticky top-0 z-50 shadow-lg 
- bg-white/70 backdrop-blur-md 
- dark:bg-blue-900/90 dark:backdrop-blur-md">
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 shadow-lg 
+    bg-white/70 backdrop-blur-md 
+    dark:bg-blue-900/90 dark:backdrop-blur-md">
 
-  <div class="max-w-6xl mx-auto h-[14vh] flex items-center justify-between px-4">
+    <div class="max-w-6xl mx-auto h-[14vh] flex items-center justify-between px-4">
 
-    <!-- Logo -->
-    <img src="./Image/ChatGPT Image Nov 25, 2025, 10_34_25 PM.png" 
-    alt="Logo" 
-     class="w-[55px] h-[55px] sm:w-[80px] sm:h-[80px] rounded-full object-cover">
+      <!-- Logo -->
+      <img src="./Image/ChatGPT Image Nov 25, 2025, 10_34_25 PM.png" 
+      alt="Logo" 
+       class="w-[55px] h-[55px] sm:w-[80px] sm:h-[80px] rounded-full object-cover">
 
-    <!-- Mobile Hamburger -->
-    <button id="hamburger" class="text-4xl sm:hidden dark:text-white">
-      &#9776;
-    </button>
+      <!-- Mobile Hamburger -->
+      <button id="hamburger" class="text-4xl sm:hidden dark:text-white">
+        &#9776;
+      </button>
 
-    <!-- Desktop Nav -->
-    <nav class="hidden sm:flex gap-8 text-lg items-center dark:text-gray-200">
+      <!-- Desktop Nav -->
+      <nav class="hidden sm:flex gap-8 text-lg items-center dark:text-gray-200">
+        <a href="index.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Home</a>
+        <a href="about.html" class="hover:text-blue-600 dark:hover:text-yellow-400">About</a>
+        <a href="services.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Services</a>
+        <a href="testimonials.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Testimonial</a>
+        <a href="blog.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Blog</a>
+      
+        <a href="contact.html"
+         class="border border-blue-600 dark:border-gray-300 
+          px-4 py-2 rounded-lg 
+          hover:bg-blue-100 dark:hover:bg-blue-800
+          transition inline-block text-center">
+          Contact Us
+        </a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- MOBILE NAV -->
+    <nav id="mobileNav" class="fixed inset-0 bg-white dark:bg-blue-950 z-[60] 
+      flex flex-col items-center justify-center space-y-6 
+      text-2xl hidden dark:text-gray-200">
+
       <a href="index.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Home</a>
       <a href="about.html" class="hover:text-blue-600 dark:hover:text-yellow-400">About</a>
       <a href="services.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Services</a>
       <a href="testimonials.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Testimonial</a>
       <a href="blog.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Blog</a>
-      
+
       <a href="contact.html"
-   class="border border-blue-600 dark:border-gray-300 
+        class="border border-blue-600 dark:border-gray-300 
           px-4 py-2 rounded-lg 
           hover:bg-blue-100 dark:hover:bg-blue-800
           transition inline-block text-center">
-  Contact Us
-</a>
+        Contact Us
+      </a>
+
+
+      <!-- Close Button -->
+      <button id="closeNav" class="absolute top-6 right-6 text-4xl dark:text-gray-200">
+        ×
+      </button>
 
     </nav>
-  </div>
-</header>
 
-<main>
+    <section id="blog" class="max-w-5xl mx-auto px-6 md:px-12 py-20">
 
-<!-- MOBILE NAV -->
-<nav id="mobileNav" class="fixed inset-0 bg-white dark:bg-blue-950 z-[60] 
-  flex flex-col items-center justify-center space-y-6 
-  text-2xl hidden dark:text-gray-200">
+      <article class="bg-white/70 dark:bg-blue-900/40 p-8 rounded-2xl shadow-lg">
 
-  <a href="index.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Home</a>
-  <a href="about.html" class="hover:text-blue-600 dark:hover:text-yellow-400">About</a>
-  <a href="services.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Services</a>
-  <a href="testimonials.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Testimonial</a>
-  <a href="blog.html" class="hover:text-blue-600 dark:hover:text-yellow-400">Blog</a>
+        <!-- Blog Title -->
+        <header class="text-3xl md:text-4xl font-bold text-blue-900 dark:text-gray-100 mb-4">
+          How to Secure Your UK Student Visa Fast & Hassle-Free
+        </header>
 
-<a href="contact.html"
-   class="border border-blue-600 dark:border-gray-300 
-          px-4 py-2 rounded-lg 
-          hover:bg-blue-100 dark:hover:bg-blue-800
-          transition inline-block text-center">
-  Contact Us
-</a>
+        <!-- Author & Date -->
+        <footer class="flex flex-col sm:flex-row sm:items-center sm:justify-between text-gray-700 dark:text-gray-300 mb-8 space-y-2 sm:space-y-0">
+          <p>By <strong>VisaPath Travel Consultant</strong></p>
+          <p>Published: December 3, 2025</p>
+        </footer>
 
-
-  <!-- Close Button -->
-  <button id="closeNav" class="absolute top-6 right-6 text-4xl dark:text-gray-200">
-    ×
-  </button>
-
-</nav>
-
-<section id="blog" class="max-w-5xl mx-auto px-6 md:px-12 py-20">
-
-  <article class="bg-white/70 dark:bg-blue-900/40 p-8 rounded-2xl shadow-lg">
-
-    <!-- Blog Title -->
-    <h1 class="text-3xl md:text-4xl font-bold text-blue-900 dark:text-gray-100 mb-4">
-      How to Secure Your UK Student Visa Fast & Hassle-Free
-    </h1>
-
-    <!-- Author & Date -->
-    <footer class="flex flex-col sm:flex-row sm:items-center sm:justify-between text-gray-700 dark:text-gray-300 mb-8 space-y-2 sm:space-y-0">
-      <p>By <strong>VisaPath Travel Consultant</strong></p>
-      <p>Published: December 3, 2025</p>
-    </footer>
-
-    <!-- Feature Image -->
-    <div class="mb-8">
-      <img src="./Image/veera-batlu-_UVUzbC-kIM-unsplash.jpg" 
+        <!-- Feature Image -->
+        <div class="mb-8">
+          <img src="./Image/veera-batlu-_UVUzbC-kIM-unsplash.jpg" 
            alt="UK Student Visa"
            class="w-full h-auto rounded-2xl shadow-xl object-cover">
-    </div>
+        </div>
 
-    <!-- Blog Content -->
-    <div class="prose prose-blue dark:prose-invert max-w-full">
-      <p>
-        Applying for a UK student visa can seem complicated, but with the right guidance, it becomes straightforward. 
-        At <strong>VisaPath Travel Consultant</strong>, we simplify every step—from document preparation to submission—so you can focus on planning your studies abroad.
-      </p>
+        <!-- Blog Content -->
+        <div class="prose prose-blue dark:prose-invert max-w-full">
+          <p>
+          Applying for a UK student visa can seem complicated, but with the right guidance, it becomes straightforward. 
+          At <strong>VisaPath Travel Consultant</strong>, we simplify every step—from document preparation to submission—so you can focus on planning your studies abroad.
+          </p>
 
-      <h2>Step 1: Check Your Eligibility</h2>
-      <p>
-        Ensure you meet the UK visa requirements, including accepted financial proof, passport validity, and acceptance to a recognized UK university.
-      </p>
+          <h2>Step 1: Check Your Eligibility</h2>
+          <p>
+            Ensure you meet the UK visa requirements, including accepted financial proof, passport validity, and acceptance to a recognized UK university.
+          </p>
 
-      <h2>Step 2: Prepare Required Documents</h2>
-      <ul>
-        <li>Valid passport</li>
-        <li>University acceptance letter</li>
-        <li>Financial statements</li>
-        <li>Proof of English proficiency</li>
-        <li>Passport-sized photographs</li>
-      </ul>
+          <h2>Step 2: Prepare Required Documents</h2>
+          <ul>
+            <li>Valid passport</li>
+            <li>University acceptance letter</li>
+            <li>Financial statements</li>
+            <li>Proof of English proficiency</li>
+            <li>Passport-sized photographs</li>
+          </ul>
 
-      <h2>Step 3: Submit Your Application</h2>
-      <p>
-        Applications can be submitted online or via Visa Application Centres. We provide guidance to ensure your forms are filled out correctly and all documents are submitted on time.
-      </p>
+          <h2>Step 3: Submit Your Application</h2>
+          <p>
+           Applications can be submitted online or via Visa Application Centres. We provide guidance to ensure your forms are filled out correctly and all documents are submitted on time.
+          </p>
 
-      <h2>Step 4: Attend Biometric Appointment</h2>
-      <p>
-        Your biometric information will be collected, and you may be called for an interview. We advise clients on how to prepare for this step to maximize success.
-      </p>
+          <h2>Step 4: Attend Biometric Appointment</h2>
+          <p>
+           Your biometric information will be collected, and you may be called for an interview. We advise clients on how to prepare for this step to maximize success.
+          </p>
 
-      <h2>Step 5: Receive Your Visa</h2>
-      <p>
-        Once approved, you will receive your visa, ready for travel. Our support extends through the entire process to ensure a smooth experience.
-      </p>
+          <h2>Step 5: Receive Your Visa</h2>
+          <p>
+           Once approved, you will receive your visa, ready for travel. Our support extends through the entire process to ensure a smooth experience.
+          </p>
 
-      <h2>Why Choose VisaPath?</h2>
-      <p>
-        We have successfully guided 300+ students and travelers, boasting a high success rate and personalized support. With our expertise, your journey to the UK becomes stress-free and well-prepared.
-      </p>
+          <h2>Why Choose VisaPath?</h2>
+          <p>
+           We have successfully guided 300+ students and travelers, boasting a high success rate and personalized support. With our expertise, your journey to the UK becomes stress-free and well-prepared.
+          </p>
 
-    </div>
+        </div>
 
-    <!-- Article Footer / Tags / CTA -->
     <footer class="mt-12 border-t border-gray-300 dark:border-blue-800 pt-6 flex flex-col sm:flex-row sm:justify-between items-start sm:items-center gap-4">
       
       <!-- Tags -->
@@ -183,7 +182,7 @@
       </div>
 
       <!-- CTA -->
-      <a href="#contact" 
+      <a href="./contact.html" 
          class="px-6 py-3 rounded-xl font-semibold bg-blue-600 text-white hover:bg-blue-700 transition shadow-lg text-center">
         Book a Consultation
       </a>
@@ -207,7 +206,7 @@
         Helping clients achieve global opportunities with ease.
       </p>
       <div class="flex space-x-4 mt-2 text-xl">
-        <a href="https://www.website.com" target="_blank" class="hover:text-yellow-400 transition">
+        <a href="https://visapathtravelconsultant.netlify.app/" target="_blank" class="hover:text-yellow-400 transition">
           <i class="fas fa-globe"></i>
         </a>
         <a href="https://facebook.com/YourPage" target="_blank" class="hover:text-yellow-400 transition">
